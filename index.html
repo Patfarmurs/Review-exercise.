@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <h1 id="title">Malaria Research</h1>
+<p id="description">Thank you for taking time to fill in this survey!</p>
+<form id="survey-form">
+
+  <p>Personal Details</p>
+  <label for="name" id="name-label">Name:</label>
+  <input type="text" required placeholder="name" id="name">
+  <br/>
+  <label for="email" id="email-label">Email:</label>
+  <input type="email" required placeholder="email" id="email"/><br/>
+  <label for="number" id="number-label">Number:</label>
+  <input type="number" placeholder="number" id="number" min="0" max="100"/><br/>
+
+  <p>Where is your location?</p>
+  <select name="dropdown" id="dropdown">
+    <option value="Tanzania">Tanzania</option>
+    <option value="Congo">Congo</option>
+    <option value="South Africa">South Africa</option>
+  </select>
+
+  <p>What is your Gender</p>
+  <br>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="Male">
+  <label for="femlae">Female</label>
+  <input type="radio" name="gender" id="female" value="Female">
+
+  <p>Who are more affected?</p>
+  <br>
+  <label for="children">Children</label>
+  <input type="checkbox" value="children" name="patients" id="children">
+  <br>
+  <label for="youngsters">Youngsters</label>
+  <input type="checkbox" value="youngsters" name="patients" id="youngsters">
+  <br>
+  <label for="adult">Adult</label>
+  <input type="checkbox" value="adult" name="patients" id="adult">
+  <br>
+  <label for="elders">Elders</label>
+  <input type="checkbox" value="elders" name="patients" id="elders">
+
+  <p>Additional Comments</p>
+  <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+  <br>
+
+  <input type="submit" value="Submit" id="submit">
+
+</form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
